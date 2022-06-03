@@ -1,3 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">CardManager</string>
+    <string name="shop_name" tools:ignore="ExtraTranslation">SHOP NAME</string>
 </resources>

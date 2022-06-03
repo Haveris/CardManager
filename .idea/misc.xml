@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Patryk/AndroidStudioProjects/CardManager/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.5135" />
         <entry key="..\:/Users/Patryk/AndroidStudioProjects/CardManager/app/src/main/res/layout/activity_adding_card.xml" value="0.552536231884058" />
         <entry key="..\:/Users/Patryk/AndroidStudioProjects/CardManager/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Patryk/AndroidStudioProjects/CardManager/app/src/main/res/layout/activity_owned_cards.xml" value="0.552536231884058" />
+        <entry key="..\:/Users/Patryk/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/progress_indeterminate_horizontal.xml" value="0.5135" />
       </map>
     </option>
   </component>
