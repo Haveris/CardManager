@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
-    
+
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -58,6 +58,27 @@
                 android:layout_margin="6dp"
                 android:textAlignment="center"
                 android:text="Add new Card" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_frontCard"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_credit_card_24"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView_reverseCard"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_credit_card_24" />
+
+
+</LinearLayout>
+
 
 
         </LinearLayout>

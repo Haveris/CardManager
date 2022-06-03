@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class AddingCardActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -21,22 +23,19 @@ public class AddingCardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adding_card);
 
+
+
         ///////////////////////////////////////////////////////////////////
         button_frontCard = (Button) findViewById(R.id.button_frontCard);
         button_frontCard.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                dispatchTakePictureIntent();
-            }
-        });
+            public void onClick(View v) { dispatchTakePictureIntent(); }});
         ///////////////////////////////////////////////////////////////////
         button_reverseCard = (Button) findViewById(R.id.button_reverseCard);
         button_reverseCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dispatchTakePictureIntent();
-            }
-        });
+                dispatchTakePictureIntent(); }});
         ///////////////////////////////////////////////////////////////////
     }
 
@@ -50,5 +49,7 @@ public class AddingCardActivity extends AppCompatActivity {
             // display error state to the user
         }
     }
+
+
 }
 
