@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
-    layout_width=""
-    layout_height=""
+    
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -39,7 +38,7 @@
             <Button
                 android:id="@+id/button_frontCard"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
+                android:layout_height="62dp"
                 android:layout_margin="6dp"
                 android:textAlignment="center"
                 android:text="Front of the card" />
@@ -47,7 +46,7 @@
             <Button
                 android:id="@+id/button_reverseCard"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="62dp"
                 android:layout_margin="6dp"
                 android:textAlignment="center"
                 android:text="Reverse of the card" />
@@ -55,7 +54,7 @@
             <Button
                 android:id="@+id/button_addNewCard"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="62dp"
                 android:layout_margin="6dp"
                 android:textAlignment="center"
                 android:text="Add new Card" />
